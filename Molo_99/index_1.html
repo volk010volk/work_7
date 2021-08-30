@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style_1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Регистрация</h2>
+    <form action="/search" method="POST">
+        <ul>
+            <li>
+                <label>
+                   <span>Ваше имя</span>
+                    <input type="text" name="fName" id="fName">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span>Ваше фамилия</span>
+                    <input type="text" name="lName" id="lName">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span>Ваш Email</span>
+                    <input type="text" name="eMail" id="eMail">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span>Пароль</span>
+                    <input type="password" name="upassword" id="upassword">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span>Рассылка</span>
+                    <input type="checkbox" name="news" id="news">
+                </label>
+            </li>
+            <li>
+                <span>Пол:</span>
+                <input type="radio" name="sex" id="gender1">
+                <label for="gender1">Мужской</label>
+                <input type="radio" name="sex" id="gender2">
+                <label for="gender2">Женский</label>
+            </li>
+            <li id="btns">
+                <input type="submit" value="Зарегестрироваться" id="regBtn">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
